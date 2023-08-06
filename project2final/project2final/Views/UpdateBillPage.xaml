@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="project2final.Views.UpdateBillPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+            <Label Text="ID" />
+            <Entry Text="{Binding SelectedBill.ID, Mode=TwoWay}" IsEnabled="False"/>
+
+            <Label Text="DueDate" />
+            <Entry Text="{Binding SelectedBill.DueDate, Mode=TwoWay}" />
+
+            <Label Text="TotalAmount" />
+            <Entry Text="{Binding SelectedBill.TotalAmount, Mode=TwoWay}" IsEnabled="False"/>
+        </StackLayout>
+
+
+
+        <ListView Grid.Row="1" Grid.Column="0"
+                      ItemsSource="{Binding Times}" SelectedItem="{Binding SelectedTime}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0" 
+                                       Text="{Binding .}" 
+                                       FontSize="16"
+                                       FontAttributes="Bold"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <ListView Grid.Row="1" Grid.Column="1"
+                      ItemsSource="{Binding SelectedBill.Times}" SelectedItem="{Binding SelectedTime}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0" 
+                                       Text="{Binding .}" 
+                                       FontSize="16"
+                                       FontAttributes="Bold"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+
+        <StackLayout Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+            <Button Text="Add Time"
+            Command="{Binding AddTimeBillCommand}"/>
+
+            <Button Text="Remove Time"
+            Command="{Binding DeleteTimeBillCommand}"/>
+            
+            <Button Text="Update Bill"
+            Command="{Binding UpdateBillCommand}"/>
+
+            <Button Text="Delete Bill"
+            Command="{Binding DeleteBillCommand}"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="project2final.Views.AddProjectPage">
+    <StackLayout>
+        <Label Text="ID" />
+        <Entry Text="{Binding SelectedProject.ID, Mode=TwoWay}" IsEnabled="False"/>
+
+        <Label Text="OpenDate" />
+        <Entry Text="{Binding SelectedProject.OpenDate, Mode=TwoWay}" />
+
+        <Label Text="CloseDate" />
+        <Entry Text="{Binding SelectedProject.CloseDate, Mode=TwoWay}" />
+
+        <Label Text="IsActive" />
+        <Entry Text="{Binding SelectedProject.IsActive, Mode=TwoWay}" />
+
+        <Label Text="ShortName" />
+        <Entry Text="{Binding SelectedProject.ShortName, Mode=TwoWay}" />
+
+        <Label Text="LongName" />
+        <Entry Text="{Binding SelectedProject.LongName, Mode=TwoWay}" />
+
+        <Label Text="ClientID" />
+        <Entry Text="{Binding SelectedProject.ClientID, Mode=TwoWay}" />
+
+        <Button Text="Add Project"
+                Command="{Binding AddProjectCommand}"/>
+
+        <ListView
+            ItemsSource="{Binding Bills}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0" 
+                                       Text="{Binding .}" 
+                                       FontSize="16"
+                                       FontAttributes="Bold"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="project2final.Views.AddClientPage">
+    <StackLayout>
+        <Label Text="ID" />
+        <Entry Text="{Binding NewClient.ID, Mode=TwoWay}" />
+
+        <Label Text="OpenDate" />
+        <Entry Text="{Binding NewClient.OpenDate, Mode=TwoWay}" />
+
+        <Label Text="CloseDate" />
+        <Entry Text="{Binding NewClient.CloseDate, Mode=TwoWay}" />
+
+        <Label Text="IsActive" />
+        <Entry Text="{Binding NewClient.IsActive, Mode=TwoWay}" />
+
+        <Label Text="Name" />
+        <Entry Text="{Binding NewClient.Name, Mode=TwoWay}" />
+
+        <Label Text="Notes" />
+        <Entry Text="{Binding NewClient.Notes, Mode=TwoWay}" />
+
+        <Button Text="Add Client"
+                Command="{Binding AddClientCommand}"/>
+    </StackLayout>
+</ContentPage>

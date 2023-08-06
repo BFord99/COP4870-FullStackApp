@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="project2final.Views.AddBillPage">
+    <StackLayout>
+    <Label Text="ID" />
+    <Entry Text="{Binding NewBill.ID, Mode=TwoWay}" />
+
+    <Label Text="DueDate" />
+    <Entry Text="{Binding NewBill.DueDate, Mode=TwoWay}" />
+
+    <Button Text="Add Bill"
+                Command="{Binding AddBillCommand}"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="project2final.Views.UpdateProjectPage">
+    <StackLayout>
+        <Label Text="ID" />
+        <Entry Text="{Binding NewProject.ID, Mode=TwoWay}" IsEnabled="False"/>
+
+        <Label Text="OpenDate" />
+        <Entry Text="{Binding NewProject.OpenDate, Mode=TwoWay}" />
+
+        <Label Text="CloseDate" />
+        <Entry Text="{Binding NewProject.CloseDate, Mode=TwoWay}" />
+
+        <Label Text="IsActive" />
+        <Entry Text="{Binding NewProject.IsActive, Mode=TwoWay}"/>
+
+        <Label Text="ShortName" />
+        <Entry Text="{Binding NewProject.ShortName, Mode=TwoWay}" />
+
+        <Label Text="LongName" />
+        <Entry Text="{Binding NewProject.LongName, Mode=TwoWay}" />
+
+        <Label Text="ClientID" />
+        <Entry Text="{Binding NewProject.ClientID, Mode=TwoWay}" />
+
+        <Button Text="Update Project"
+            Command="{Binding UpdateProjectCommand}"/>
+
+        <Button Text="Delete Project"
+            Command="{Binding DeleteProjectCommand}"/>
+
+        <ListView
+                      ItemsSource="{Binding Bills}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0" 
+                                       Text="{Binding .}" 
+                                       FontSize="16"
+                                       FontAttributes="Bold"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+    </ContentPage>

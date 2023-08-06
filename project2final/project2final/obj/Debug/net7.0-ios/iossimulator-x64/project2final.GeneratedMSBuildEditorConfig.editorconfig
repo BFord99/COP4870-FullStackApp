@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = project2final
+build_property.ProjectDir = C:\Users\Braden\Desktop\BFord_FullProject\project2final\project2final\
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/Views/AddBillPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.Views.AddBillPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddBillPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddBillPage.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/Views/AddClientPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.Views.AddClientPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddClientPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddClientPage.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/Views/AddEmployeePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.Views.AddEmployeePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddEmployeePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddEmployeePage.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/Views/AddProjectPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.Views.AddProjectPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddProjectPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddProjectPage.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/Views/AddTimePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.Views.AddTimePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddTimePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddTimePage.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/Views/UpdateBillPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.Views.UpdateBillPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UpdateBillPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UpdateBillPage.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/Views/UpdateClientPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.Views.UpdateClientPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UpdateClientPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UpdateClientPage.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/Views/UpdateEmployeePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.Views.UpdateEmployeePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UpdateEmployeePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UpdateEmployeePage.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/Views/UpdateProjectPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.Views.UpdateProjectPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UpdateProjectPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UpdateProjectPage.xaml
+
+[C:/Users/Braden/Desktop/BFord_FullProject/project2final/project2final/Views/UpdateTimePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = project2final.Views.UpdateTimePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UpdateTimePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UpdateTimePage.xaml

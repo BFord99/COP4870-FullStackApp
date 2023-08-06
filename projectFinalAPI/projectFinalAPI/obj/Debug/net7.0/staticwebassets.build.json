@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "4A9uNoEH2L6RgGbsIRhyyVyW3gRouP86jI+OT481rPg=",
+  "Source": "projectFinalAPI",
+  "BasePath": "_content/projectFinalAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "projectFinalAPI\\wwwroot",
+      "Source": "projectFinalAPI",
+      "ContentRoot": "C:\\Users\\Braden\\Desktop\\BFord_FullProject\\projectFinalAPI\\projectFinalAPI\\wwwroot\\",
+      "BasePath": "_content/projectFinalAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

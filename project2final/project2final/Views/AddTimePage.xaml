@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="project2final.Views.AddTimePage">
+    <StackLayout>
+        <Label Text="Date" />
+        <Entry Text="{Binding NewTime.Date, Mode=TwoWay}" />
+
+        <Label Text="Narrative" />
+        <Entry Text="{Binding NewTime.Narrative, Mode=TwoWay}" />
+
+        <Label Text="Hours" />
+        <Entry Text="{Binding NewTime.Hours, Mode=TwoWay}" />
+
+        <Label Text="ProjectID" />
+        <Entry Text="{Binding NewTime.ProjectID, Mode=TwoWay}" />
+
+        <Label Text="EmployeeID" />
+        <Entry Text="{Binding NewTime.EmployeeID, Mode=TwoWay}" />
+
+        <Button Text="Add Time"
+                Command="{Binding AddTimeCommand}"/>
+    </StackLayout>
+</ContentPage>
